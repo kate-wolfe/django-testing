@@ -24,4 +24,7 @@ urlpatterns = [
     path("", TemplateView.as_view(template_name="index.html"), name="landing_page"),
     path("admin/", admin.site.urls),
     path("form-without-model/", setup_form_view),
+    path(
+        "output/", TemplateView.as_view(template_name="output.html"), name="output_page"
+    ),
 ]

@@ -1,0 +1,173 @@
+{
+  "id": "16714136",
+  "fixedFields": {
+    "57": {
+      "label": "",
+      "value": "false"
+    },
+    "58": {
+      "label": "Copy No.",
+      "value": "0"
+    },
+    "59": {
+      "label": "ICode 1 (SCAT)",
+      "value": "207"
+    },
+    "60": {
+      "label": "Item Code 2",
+      "value": "-"
+    },
+    "61": {
+      "label": "Item Type",
+      "value": "150",
+      "display": "J Book"
+    },
+    "62": {
+      "label": "Price",
+      "value": "2000.000000"
+    },
+    "64": {
+      "label": "Checkout Location",
+      "value": "180"
+    },
+    "67": {
+      "label": "Last Patron",
+      "value": "1805241"
+    },
+    "68": {
+      "label": "Last Checkin",
+      "value": "2023-05-13T15:10:07Z"
+    },
+    "70": {
+      "label": "Checkin Location",
+      "value": "181"
+    },
+    "74": {
+      "label": "Item Use 3",
+      "value": "0"
+    },
+    "76": {
+      "label": "Total Checkouts",
+      "value": "28"
+    },
+    "77": {
+      "label": "Total Renewals",
+      "value": "18"
+    },
+    "78": {
+      "label": "Last Checkout Date",
+      "value": "2023-04-14T20:10:05Z"
+    },
+    "79": {
+      "label": "Location",
+      "value": "brkt",
+      "display": "BROOKLINE/Tween"
+    },
+    "80": {
+      "label": "Record Type",
+      "value": "i"
+    },
+    "81": {
+      "label": "Record Number",
+      "value": "16714136"
+    },
+    "83": {
+      "label": "Created Date",
+      "value": "2019-01-25T19:34:14Z"
+    },
+    "84": {
+      "label": "Updated Date",
+      "value": "2023-05-13T15:10:07Z"
+    },
+    "85": {
+      "label": "No. of Revisions",
+      "value": "166"
+    },
+    "86": {
+      "label": "Agency",
+      "value": "1",
+      "display": "Belmont"
+    },
+    "88": {
+      "label": "Status",
+      "value": "-",
+      "display": "AVAILABLE"
+    },
+    "93": {
+      "label": "Internal Use",
+      "value": "0"
+    },
+    "94": {
+      "label": "Copy Use",
+      "value": "0"
+    },
+    "97": {
+      "label": "Item Message",
+      "value": "-"
+    },
+    "98": {
+      "label": "",
+      "value": "2023-05-10T09:02:32Z"
+    },
+    "108": {
+      "label": "OPAC Message",
+      "value": "-",
+      "display": ""
+    },
+    "109": {
+      "label": "Year-to-Date Circ",
+      "value": "6"
+    },
+    "110": {
+      "label": "Last Year Circ",
+      "value": "7"
+    },
+    "127": {
+      "label": "Item Agency",
+      "value": "2",
+      "display": "Brookline"
+    },
+    "161": {
+      "label": "VI Central",
+      "value": "0"
+    },
+    "162": {
+      "label": "IR DIST LEARN SAME SITE",
+      "value": "0"
+    },
+    "264": {
+      "label": "Holdings Item Tag",
+      "value": "6"
+    },
+    "265": {
+      "label": "Inherit Location",
+      "value": "false"
+    },
+    "306": {
+      "label": "Sticky Status",
+      "value": ""
+    }
+  },
+  "varFields": [
+    {
+      "fieldTag": "b",
+      "content": "31712100144214"
+    },
+    {
+      "fieldTag": "c",
+      "marcTag": "092",
+      "ind1": " ",
+      "ind2": " ",
+      "subfields": [
+        {
+          "tag": "a",
+          "content": "TWEEN FIC Pullman, Philip "
+        }
+      ]
+    },
+    {
+      "fieldTag": "j",
+      "content": "BRK,spc"
+    }
+  ]
+}

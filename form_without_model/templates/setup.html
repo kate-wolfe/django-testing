@@ -5,10 +5,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Primitive Mapping</title>
 </head>
 
 <body>
+    <h1>Find barcode</h1>
+
+    {% if objType == 'dict' %}
+    {% for k, v in obj.items %}
+
+    <div class="p-index">
+        <p>{{ forloop.counter }}. {{ k }} {{ v }}</p>
+    </div>
+
+    {% endfor %}
+
+    {% elif objType == 'list' %}
+
+    {% for o in obj %}
+
+    <div class="p-index">
+        <p>{{ forloop.counter }}. {{ o }}</p>
+    </div>
+
+    {% endfor %}
+
+    {% elif objType == 'string' %}
+
+    <div class="p-index">
+        <p>{{ obj }}</p>
+    </div>
+
+    {% else %}
+
+    <p>Unknown object type</p>
+
+
+    {% endif %}
+
     <form method="post">
         {% csrf_token %}
         {{ form.as_p }}
